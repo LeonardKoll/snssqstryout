@@ -12,7 +12,7 @@ Hosts a simple website with a form to submit a message to SNS.
 
 ```
 dotnet publish .
-cd /bin/Debug/netcoreapp3.1/publish
+cd bin/Debug/netcoreapp3.1/publish
 dotnet snssqstryout.dll --arn "..." --accessKey "..." --secretKey "..."
 
 ```
