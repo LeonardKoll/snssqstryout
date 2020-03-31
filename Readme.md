@@ -11,7 +11,8 @@ Hosts a simple website with a form to submit a message to SNS.
 ## Usage
 
 ```
-dotnet build .
+dotnet publish .
+cd /bin/Debug/netcoreapp3.1/publish
 dotnet snssqstryout.dll --arn "..." --accessKey "..." --secretKey "..."
 
 ```
