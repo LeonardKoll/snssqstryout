@@ -33,8 +33,9 @@ namespace snssqstryout
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseStaticFiles();
             }
+
+            app.UseStaticFiles();
 
             app.UseRouting();
 
